@@ -182,7 +182,33 @@ filter-button:focus {
     letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
-.address-link:hover,
-.address-link:focus {
-    color: var();
+.address-list {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--light-color);
+}
+.address-list:hover,
+.address-list:focus {
+    color: var(--hover-color);
+}
+footer .logo-studio {
+    color: var(--light-color);
+}
+footer .address-link {
+    color: var(--secondary-color);
+    font-style: normal;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+}
+footer .contacts-link {
+    color: var(--light-color);
+    padding: 0;
+    line-height: 1.71;
+}
+footer .contacts-link:focus,
+footer .contacts-link:hover,
+footer .address-link:focus,
+footer .address-link:hover {
+    color: var(--hover-color);
 }
