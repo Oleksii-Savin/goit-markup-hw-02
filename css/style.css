@@ -104,7 +104,6 @@ body {
 .button {
     cursor: pointer;
     border: none;
-    border: none;
     color: var(--light-color);
     background-color: var(--hover-color);
     font-weight: 700;
@@ -156,4 +155,34 @@ body {
 }
 .footer {
     background-color: var(--background-color);
+}
+.filter-button {
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.filter-button:hover,
+filter-button:focus {
+    color: var(--light-color);
+    background-color: var(--hover-color);
+    border: none;
+}
+.portfolio-list h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-list p {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+.address-link:hover,
+.address-link:focus {
+    color: var();
 }
