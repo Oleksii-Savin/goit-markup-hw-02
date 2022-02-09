@@ -198,8 +198,12 @@ footer .address-link {
     color: var(--light-color);
     font-style: normal;
     line-height: 1.71;
-    opacity: 0.6;
     letter-spacing: 0.03em;
+    opacity: 1;
+}
+footer .address-link:hover,
+footer .address-link:focus {
+    opacity: 0.6;
 }
 footer .contacts-link {
     color: var(--light-color);
@@ -209,9 +213,7 @@ footer .contacts-link {
     opacity: 0.6;
 }
 footer .contacts-link:focus,
-footer .contacts-link:hover,
-footer .address-link:focus,
-footer .address-link:hover {
+footer .contacts-link:hover {
     color: var(--light-color);
     opacity: 1;
 }
