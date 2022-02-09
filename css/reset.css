@@ -15,11 +15,11 @@ input,
 textarea {
     outline: none;
 }
-/*img {
-  width: 100%;
-  height: auto;
-  display: block;
-}*/
+/* img {
+    width: 100%;
+    height: auto;
+    display: block;
+} */
 button {
     cursor: pointer;
     border: none;
