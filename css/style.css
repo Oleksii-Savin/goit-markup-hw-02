@@ -203,6 +203,7 @@ footer .address-link {
 }
 footer .contacts-link {
     color: var(--light-color);
+    font-style: normal;
     padding: 0;
     line-height: 1.71;
     opacity: 0.6;
