@@ -6,7 +6,11 @@
     --light-color: #fff;
     --alt-hover-color: #188ce8;
 }
-
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 body {
     font-size: 14px;
     font-weight: 400;
