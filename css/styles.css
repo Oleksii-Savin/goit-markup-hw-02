@@ -15,25 +15,47 @@ body {
   line-height: 1.25;
   letter-spacing: 0.02em;
 }
+button {
+  all: unset;
+  background: transparent;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+}
 .header {
 }
 .header-nav {
 }
 .header-logo {
-  Font-weight: 700;
-  Font-size: 18px;
-  line-height: 21px;
-  Letter-spacing: 0.03em;
-  color:#4D5AE5;
-  }
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
 .logo-studio {
   color: #2e2f42;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .header-menu-list {
 }
 .header-menu-item {
 }
 .header-menu-link {
+  color: #2e2f42;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .header-adress {
 }
@@ -42,4 +64,48 @@ body {
 .header-adress-list-item {
 }
 .header-adress-list-link {
+  color: #434455;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.hero-section {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+.main-headline {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero-button {
+  width: 169px;
+  height: 56px;
+  background-color: #4d5ae5;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  border-radius: 4px;
+}
+.about-us-section {
+}
+.about-us-headline {
+}
+.about-us-list {
+}
+.about-us-list-item {
+}
+.about-us-item-headline {
+}
+.about-us-item-text {
 }
