@@ -20,8 +20,12 @@ body {
 .header-nav {
 }
 .header-logo {
-  color: #4d5ae5;
-}
+  Font-weight: 700;
+  Font-size: 18px;
+  line-height: 21px;
+  Letter-spacing: 0.03em;
+  color:#4D5AE5;
+  }
 .logo-studio {
   color: #2e2f42;
 }
