@@ -1,0 +1,41 @@
+* {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+body {
+  font-family: 'roboto', 'sans-serif';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+.header {
+}
+.header-nav {
+}
+.header-logo {
+  color: #4d5ae5;
+}
+.logo-studio {
+  color: #2e2f42;
+}
+.header-menu-list {
+}
+.header-menu-item {
+}
+.header-menu-link {
+}
+.header-adress {
+}
+.header-adress-list {
+}
+.header-adress-list-item {
+}
+.header-adress-list-link {
+}
